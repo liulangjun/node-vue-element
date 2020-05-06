@@ -8,7 +8,6 @@ var $sql = require('../db/sqlMap');
 var conn = mysql.createConnection(models.mysql);
 
 conn.connect();
-console.log('conn',conn);
 
 var jsonWrite = function(res, ret) {
     if(typeof ret === 'undefined') {
