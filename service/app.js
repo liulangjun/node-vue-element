@@ -11,4 +11,4 @@ app.use(bodyParser.urlencoded())
 app.use('/api/user', userApi);
 app.use(express.static('../dist'));
 
-app.listen(80);
+app.listen(80, '0.0.0.0');

@@ -55,7 +55,6 @@
           a: 1
         })
           .then(res => {
-            console.log('res', res);
             this.tableData = res.data
           })
       }
